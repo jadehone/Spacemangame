@@ -1,7 +1,7 @@
 body{
   font-family: 'Special Elite', cursive;
   color: #e5e7e9;
-  background-image: url("http://jadehone.com/assets/SpacemanImages/milkyway.jpg");
+  background-image: url("\SpacemanImages/milkyway.jpg");
   background-size: cover;
 }
 
@@ -91,73 +91,73 @@ button{
   right: 20vw;
   bottom: 5vw;
   position: absolute;
-  cursor: url("http://jadehone.com/assets/Icons/gun.png"),auto;
+  cursor: url("\SpacemanImages/gun.png"),auto;
     }
 .alien2{
   right: 25vw;
   top: 5vw;
   position: absolute;
-  cursor: url("http://jadehone.com/assets/Icons/gun.png"),auto;
+  cursor: url("\SpacemanImages/gun.png"),auto;
 }
 .alien3{
   left: 20vw;
   bottom: 4vw;
   position: absolute;
-  cursor: url("http://jadehone.com/assets/Icons/gun.png"),auto;
+  cursor: url("\SpacemanImages/gun.png"),auto;
 }
 .alien4{
   left: 25vw;
   top: 8vw;
   position: absolute;
-  cursor: url("http://jadehone.com/assets/Icons/gun.png"),auto;
+  cursor: url("\SpacemanImages/gun.png"),auto;
 }
 .alien5{
   left: 50vw;
   top: 8vw;
   position: absolute;
-  cursor: url("http://jadehone.com/assets/Icons/gun.png"),auto;
+  cursor: url("\SpacemanImages/gun.png"),auto;
 }
 .alien6{
   right: 45vw;
   bottom: 5vw;
   position: absolute;
-  cursor: url("http://jadehone.com/assets/Icons/gun.png"),auto;
+  cursor: url("\SpacemanImages/gun.png"),auto;
 }
 .alien7{
   right: 25vw;
   bottom: 10vw;
   position: absolute;
-  cursor: url("http://jadehone.com/assets/Icons/gun.png"),auto;
+  cursor: url("\SpacemanImages/gun.png"),auto;
 }
 .alien8{
   left: 25vw;
   top: 20vw;
   position: absolute;
-  cursor: url("http://jadehone.com/assets/Icons/gun.png"),auto;
+  cursor: url("\SpacemanImages/gun.png"),auto;
 }
 .alien9{
   left: 35vw;
   top: 2vw;
   position: absolute;
-  cursor: url("http://jadehone.com/assets/Icons/gun.png"),auto;
+  cursor: url("\SpacemanImages/gun.png"),auto;
 }
 .alien10{
   left: 35vw;
   bottom: 2vw;
   position: absolute;
-  cursor: url("http://jadehone.com/assets/Icons/gun.png"),auto;
+  cursor: url("\SpacemanImages/gun.png"),auto;
 }
 .alien11{
   left: 30vw;
   bottom: 6vw;
   position: absolute;
-  cursor: url("http://jadehone.com/assets/Icons/gun.png"),auto;
+  cursor: url("\SpacemanImages/gun.png"),auto;
 }
 .alien12{
   right: 35vw;
   bottom: 2vw;
   position: absolute;
-  cursor: url("http://jadehone.com/assets/Icons/gun.png"),auto;
+  cursor: url("\SpacemanImages/gun.png"),auto;
 }
 
 
