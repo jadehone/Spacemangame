@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="styles/spaceman.css">
+        <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Caveat" rel="stylesheet">
+    <meta charset="utf-8">
+    <title>Save the spaceman game</title>
+  </head>
+  <body>
+
+
+<h1 class="title-text">Defeat The Aliens!</h1>
+
+<p class="center">
+Spaceman Bill has been sent on a top secret mission to save the earth but the aliens have other ideas.
+<br>
+Shoot the aliens within 10 seconds & save the planet!
+</p>
+
+<div class="center">
+<a href="#game-view">
+  <button class="start-button" type="button" name="button"  id="start" onclick="start()">Start</button></a>
+  <button class="replay-button" type="button" name="button" id="replay" onclick="replay()">Reload</button>
+
+</div>
+
+
+<div class="center">
+<p id="message"> </p>
+</div>
+
+<div class="flex-container">
+
+<div>
+  <h2  id ="time">Time: 00:00</h2>
+</div>
+
+<div class="score">
+    <h2 id="score">Aliens Cleared:</h2>
+  </div>
+
+</div>
+
+<div class="container pointer" id="disable-pointer">
+
+  <img src="http://jadehone.com/assets/SpacemanImages/spaceman.jpg" class="spaceman">
+  <img src="http://jadehone.com/assets/SpacemanImages/alien.png" class="alien alien1">
+  <img src="http://jadehone.com/assets/SpacemanImages/alien.png" class="alien alien2">
+  <img src="http://jadehone.com/assets/SpacemanImages/alien.png" class="alien alien3">
+  <img src="http://jadehone.com/assets/SpacemanImages/alien.png" class="alien alien4">
+  <img src="http://jadehone.com/assets/SpacemanImages/alien.png" class="alien alien5">
+  <img src="http://jadehone.com/assets/SpacemanImages/alien.png" class="alien alien6">
+  <img src="http://jadehone.com/assets/SpacemanImages/alien.png" class="alien alien7">
+  <img src="http://jadehone.com/assets/SpacemanImages/alien.png" class="alien alien8">
+  <img src="http://jadehone.com/assets/SpacemanImages/alien.png" class="alien alien9">
+  <img src="http://jadehone.com/assets/SpacemanImages/alien.png" class="alien alien10">
+  <img src="http://jadehone.com/assets/SpacemanImages/alien.png" class="alien alien11">
+  <img src="http://jadehone.com/assets/SpacemanImages/alien.png" class="alien alien12">
+
+</div>
+
+<div id="game-view">
+</div>
+
+
+<footer class="center">
+  <img src="http://jadehone.com/assets/Icons/copyright.png" alt="copyright icon"> Copyright Jade Hone <span id="copyright" class="copyright"></span>
+</footer>
+
+<script src="default.js" charset="utf-8"></script>
+
+<script src="spaceman.js" charset="utf-8"></script>
+  </body>
+</html>

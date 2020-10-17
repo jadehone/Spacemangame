@@ -1,0 +1,167 @@
+body{
+  font-family: 'Special Elite', cursive;
+  color: #e5e7e9;
+  background-image: url("http://jadehone.com/assets/SpacemanImages/milkyway.jpg");
+  background-size: cover;
+}
+
+
+.topnav {
+  overflow: hidden;
+  position: fixed;
+	z-index: 2;
+  width: 100%;
+  background-color: #333;
+	margin:-10px 0 0 -10px;
+	text-align: center;
+}
+
+.topnav a {
+  color: #cb2d62;
+  text-align: center;
+  padding: 2vw;
+  text-decoration: none;
+  font-size: 2vw;
+	font-weight: bold;
+	font-family: caveat;
+}
+
+.title-text{
+  text-align: center;
+  font-family: 'Special Elite', cursive;
+  padding-top: 4vw;
+  font-size: 6vw;
+  margin: 0;
+}
+h2{
+
+  margin:2px;
+}
+
+
+.container{
+  text-align: center;
+  position: relative;
+}
+
+.center{
+  text-align: center;
+    }
+  
+.flex-container{
+  display: flex;
+  justify-content: center;
+  font-size: 2vw;
+
+}
+.score{
+  padding-left: 2vw;
+}
+button{
+  border-radius: 50%;
+  border: none;
+  padding: 1vw;
+  box-shadow: 2px 2px #888888;
+  font-family: 'Special Elite', cursive;
+}
+
+.start-button{
+  background-color: green;
+  }
+
+.replay-button{
+  background-color: orange;
+  }
+
+.spaceman{
+  height: 37vw;
+  width: auto;
+  border-radius: 25px;
+
+    }
+.alien{
+  height: 5vw;
+  width:auto;
+      }
+
+.pointer{
+  pointer-events: none;
+}
+.alien1{
+  right: 20vw;
+  bottom: 5vw;
+  position: absolute;
+  cursor: url("http://jadehone.com/assets/Icons/gun.png"),auto;
+    }
+.alien2{
+  right: 25vw;
+  top: 5vw;
+  position: absolute;
+  cursor: url("http://jadehone.com/assets/Icons/gun.png"),auto;
+}
+.alien3{
+  left: 20vw;
+  bottom: 4vw;
+  position: absolute;
+  cursor: url("http://jadehone.com/assets/Icons/gun.png"),auto;
+}
+.alien4{
+  left: 25vw;
+  top: 8vw;
+  position: absolute;
+  cursor: url("http://jadehone.com/assets/Icons/gun.png"),auto;
+}
+.alien5{
+  left: 50vw;
+  top: 8vw;
+  position: absolute;
+  cursor: url("http://jadehone.com/assets/Icons/gun.png"),auto;
+}
+.alien6{
+  right: 45vw;
+  bottom: 5vw;
+  position: absolute;
+  cursor: url("http://jadehone.com/assets/Icons/gun.png"),auto;
+}
+.alien7{
+  right: 25vw;
+  bottom: 10vw;
+  position: absolute;
+  cursor: url("http://jadehone.com/assets/Icons/gun.png"),auto;
+}
+.alien8{
+  left: 25vw;
+  top: 20vw;
+  position: absolute;
+  cursor: url("http://jadehone.com/assets/Icons/gun.png"),auto;
+}
+.alien9{
+  left: 35vw;
+  top: 2vw;
+  position: absolute;
+  cursor: url("http://jadehone.com/assets/Icons/gun.png"),auto;
+}
+.alien10{
+  left: 35vw;
+  bottom: 2vw;
+  position: absolute;
+  cursor: url("http://jadehone.com/assets/Icons/gun.png"),auto;
+}
+.alien11{
+  left: 30vw;
+  bottom: 6vw;
+  position: absolute;
+  cursor: url("http://jadehone.com/assets/Icons/gun.png"),auto;
+}
+.alien12{
+  right: 35vw;
+  bottom: 2vw;
+  position: absolute;
+  cursor: url("http://jadehone.com/assets/Icons/gun.png"),auto;
+}
+
+
+
+::selection{
+  text-shadow: none;
+}
